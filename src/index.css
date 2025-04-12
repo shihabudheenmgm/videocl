@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@utility container {
+  padding-inline: 30px;
+  margin-inline: auto;
+}
+
+@theme {
+  --font-sans: "Hanken Grotesk", sans-serif;
+  --color-site: var(--blueclr);
+}
+
+:root {
+  --blueclr: #32c4bc;
+}
+
+@layer base {
+  body {
+    @apply m-0 font-sans;
+  }
+}
